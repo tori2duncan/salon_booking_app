@@ -1,22 +1,31 @@
+# HairFlow2
 
-# Salon Booking App - Flutter
+A new Flutter project.
 
-A new project with Flutter to learn more complex topics,
+## Getting Started
 
-Today was a holiday and I woke up in the morning and had coffee and chose a general design from Figma and started to practice, see the final result and if you have a better solution or advice, I will definitely be happy to hear it.
+FlutterFlow projects are built to run on the Flutter _stable_ release.
 
-UI From [Dribbble](https://dribbble.com/shots/10946405-Salon-Booking-App-Free)
+### IMPORTANT:
 
-## Screenshots
+For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
 
-<p>
-<img src="https://github.com/hashemsh/salon_booking_app/blob/master/1.png" width="400" height="100%">
- 
-<img src="https://github.com/hashemsh/salon_booking_app/blob/master/2.png" width="400" height="100%">
-</p>
+```
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
 
+This command creates the generated files that parse each Record from Firestore into a schema object.
 
+### Getting started continued:
 
-## 🚀 About Me
-I am a developer and I really like Flutter and would like to learn more
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
